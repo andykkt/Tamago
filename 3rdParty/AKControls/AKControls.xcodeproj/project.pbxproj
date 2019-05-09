@@ -1,0 +1,891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A128D6882279CFB000AA308F /* UIView+NSLayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D6872279CFB000AA308F /* UIView+NSLayoutConstraints.swift */; };
+		A128D68B2279D02200AA308F /* UIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D6892279D02200AA308F /* UIView+Hierarchy.swift */; };
+		A128D68C2279D02200AA308F /* NSLayoutConstraintExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D68A2279D02200AA308F /* NSLayoutConstraintExtensions.swift */; };
+		A128D68E2279D09500AA308F /* UIViewMorphExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D68D2279D09500AA308F /* UIViewMorphExtensions.swift */; };
+		A1607F6C210765EE0031FC56 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1607F6B210765EE0031FC56 /* Result.swift */; };
+		A191EF1521ED75480041BE52 /* DefaultHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A191EF1421ED75480041BE52 /* DefaultHandlerType.swift */; };
+		A1EDD9AC2105E54300A76119 /* NibCollectionViewCell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EDD9AB2105E54300A76119 /* NibCollectionViewCell.storyboard */; };
+		A1EDD9B32105E5E800A76119 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EDD9B12105E5E800A76119 /* CustomCollectionViewCell.swift */; };
+		A1EDD9B42105E5E800A76119 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1EDD9B22105E5E800A76119 /* CustomCollectionViewCell.xib */; };
+		A1EDD9D22106055C00A76119 /* SegueHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EDD9D12106055C00A76119 /* SegueHandlerType.swift */; };
+		A1EDD9D621060BBE00A76119 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EDD9D521060BBE00A76119 /* Observable.swift */; };
+		A1EF1B1721020BC800B54CA0 /* AKControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EF1B0D21020BC800B54CA0 /* AKControls.framework */; };
+		A1EF1B1C21020BC800B54CA0 /* AKControlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF1B1B21020BC800B54CA0 /* AKControlsTests.swift */; };
+		A1EF1B1E21020BC800B54CA0 /* AKControls.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EF1B1021020BC800B54CA0 /* AKControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EF1B2E21020C9700B54CA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF1B2D21020C9700B54CA0 /* AppDelegate.swift */; };
+		A1EF1B3021020C9700B54CA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF1B2F21020C9700B54CA0 /* ViewController.swift */; };
+		A1EF1B3321020C9700B54CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EF1B3121020C9700B54CA0 /* Main.storyboard */; };
+		A1EF1B3521020C9900B54CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EF1B3421020C9900B54CA0 /* Assets.xcassets */; };
+		A1EF1B3821020C9900B54CA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EF1B3621020C9900B54CA0 /* LaunchScreen.storyboard */; };
+		A1EF1B3E21020CB900B54CA0 /* AKControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EF1B0D21020BC800B54CA0 /* AKControls.framework */; };
+		A1EF1B4621021A4B00B54CA0 /* AKNibView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EF1B4421021A4B00B54CA0 /* AKNibView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EF1B4721021A4B00B54CA0 /* AKNibView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF1B4521021A4B00B54CA0 /* AKNibView.m */; };
+		A1EF1B4B21021D5500B54CA0 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF1B4A21021D5500B54CA0 /* UIView+Helper.swift */; };
+		A1EF1B4C21021E6500B54CA0 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF1B4821021B1700B54CA0 /* NibView.swift */; };
+		A1EF1B4E21021EC300B54CA0 /* NibReplaceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF1B4D21021EC300B54CA0 /* NibReplaceable.swift */; };
+		A1EF1B542102229600B54CA0 /* NibView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EF1B532102229600B54CA0 /* NibView.storyboard */; };
+		A1EF1B562102232200B54CA0 /* CustomNibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1EF1B552102232200B54CA0 /* CustomNibView.xib */; };
+		A1EF1B582102236F00B54CA0 /* CustomNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF1B572102236F00B54CA0 /* CustomNibView.swift */; };
+		A1EF1B5B21022C6E00B54CA0 /* AKNibTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EF1B5921022C6E00B54CA0 /* AKNibTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EF1B5C21022C6E00B54CA0 /* AKNibTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF1B5A21022C6E00B54CA0 /* AKNibTableViewCell.m */; };
+		A1EF1B5E21022CBE00B54CA0 /* NibTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF1B5D21022CBE00B54CA0 /* NibTableViewCell.swift */; };
+		A1EF1B632102316500B54CA0 /* NibTableViewCell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EF1B622102316500B54CA0 /* NibTableViewCell.storyboard */; };
+		A1EF1B652102317A00B54CA0 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1EF1B642102317A00B54CA0 /* CustomTableViewCell.xib */; };
+		A1EF1B67210231C400B54CA0 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF1B66210231C400B54CA0 /* CustomTableViewCell.swift */; };
+		A1EF1B6E21036DC800B54CA0 /* NibCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EF1B6D21036DC800B54CA0 /* NibCollectionViewCell.swift */; };
+		A1EF1B7121048D3D00B54CA0 /* AKNibCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EF1B6F21048D3D00B54CA0 /* AKNibCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EF1B7221048D3D00B54CA0 /* AKNibCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EF1B7021048D3D00B54CA0 /* AKNibCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1EF1B1821020BC800B54CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1EF1B0421020BC800B54CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1EF1B0C21020BC800B54CA0;
+			remoteInfo = AKControls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A128D6872279CFB000AA308F /* UIView+NSLayoutConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NSLayoutConstraints.swift"; sourceTree = "<group>"; };
+		A128D6892279D02200AA308F /* UIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		A128D68A2279D02200AA308F /* NSLayoutConstraintExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintExtensions.swift; sourceTree = "<group>"; };
+		A128D68D2279D09500AA308F /* UIViewMorphExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewMorphExtensions.swift; sourceTree = "<group>"; };
+		A1607F6B210765EE0031FC56 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		A191EF1421ED75480041BE52 /* DefaultHandlerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultHandlerType.swift; sourceTree = "<group>"; };
+		A1EDD9AB2105E54300A76119 /* NibCollectionViewCell.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NibCollectionViewCell.storyboard; sourceTree = "<group>"; };
+		A1EDD9B12105E5E800A76119 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		A1EDD9B22105E5E800A76119 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		A1EDD9D12106055C00A76119 /* SegueHandlerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueHandlerType.swift; sourceTree = "<group>"; };
+		A1EDD9D521060BBE00A76119 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		A1EF1B0D21020BC800B54CA0 /* AKControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EF1B1021020BC800B54CA0 /* AKControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKControls.h; sourceTree = "<group>"; };
+		A1EF1B1121020BC800B54CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EF1B1621020BC800B54CA0 /* AKControlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKControlsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EF1B1B21020BC800B54CA0 /* AKControlsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKControlsTests.swift; sourceTree = "<group>"; };
+		A1EF1B1D21020BC800B54CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EF1B2B21020C9700B54CA0 /* AKControlsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKControlsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EF1B2D21020C9700B54CA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1EF1B2F21020C9700B54CA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1EF1B3221020C9700B54CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1EF1B3421020C9900B54CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1EF1B3721020C9900B54CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1EF1B3921020C9900B54CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EF1B4421021A4B00B54CA0 /* AKNibView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKNibView.h; sourceTree = "<group>"; };
+		A1EF1B4521021A4B00B54CA0 /* AKNibView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKNibView.m; sourceTree = "<group>"; };
+		A1EF1B4821021B1700B54CA0 /* NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		A1EF1B4A21021D5500B54CA0 /* UIView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
+		A1EF1B4D21021EC300B54CA0 /* NibReplaceable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibReplaceable.swift; sourceTree = "<group>"; };
+		A1EF1B532102229600B54CA0 /* NibView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NibView.storyboard; sourceTree = "<group>"; };
+		A1EF1B552102232200B54CA0 /* CustomNibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomNibView.xib; sourceTree = "<group>"; };
+		A1EF1B572102236F00B54CA0 /* CustomNibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNibView.swift; sourceTree = "<group>"; };
+		A1EF1B5921022C6E00B54CA0 /* AKNibTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKNibTableViewCell.h; sourceTree = "<group>"; };
+		A1EF1B5A21022C6E00B54CA0 /* AKNibTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKNibTableViewCell.m; sourceTree = "<group>"; };
+		A1EF1B5D21022CBE00B54CA0 /* NibTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibTableViewCell.swift; sourceTree = "<group>"; };
+		A1EF1B622102316500B54CA0 /* NibTableViewCell.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NibTableViewCell.storyboard; sourceTree = "<group>"; };
+		A1EF1B642102317A00B54CA0 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		A1EF1B66210231C400B54CA0 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		A1EF1B6D21036DC800B54CA0 /* NibCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibCollectionViewCell.swift; sourceTree = "<group>"; };
+		A1EF1B6F21048D3D00B54CA0 /* AKNibCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKNibCollectionViewCell.h; sourceTree = "<group>"; };
+		A1EF1B7021048D3D00B54CA0 /* AKNibCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKNibCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1EF1B0921020BC800B54CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EF1B1321020BC800B54CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EF1B1721020BC800B54CA0 /* AKControls.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EF1B2821020C9700B54CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EF1B3E21020CB900B54CA0 /* AKControls.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A191EF1221ED75480041BE52 /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				A191EF1321ED75480041BE52 /* Model */,
+			);
+			path = UserDefault;
+			sourceTree = "<group>";
+		};
+		A191EF1321ED75480041BE52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A191EF1421ED75480041BE52 /* DefaultHandlerType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1EDD9A82105E52300A76119 /* NibCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A1EDD9AA2105E53300A76119 /* View */,
+				A1EDD9A92105E52E00A76119 /* Controller */,
+			);
+			path = NibCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		A1EDD9A92105E52E00A76119 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1EDD9AB2105E54300A76119 /* NibCollectionViewCell.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1EDD9AA2105E53300A76119 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1EDD9B12105E5E800A76119 /* CustomCollectionViewCell.swift */,
+				A1EDD9B22105E5E800A76119 /* CustomCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1EDD9CF2106054700A76119 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A1EDD9D421060BA700A76119 /* Model */,
+				A1EDD9D321060BA300A76119 /* View */,
+				A1EDD9D02106054D00A76119 /* Controller */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A1EDD9D02106054D00A76119 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1EDD9D12106055C00A76119 /* SegueHandlerType.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1EDD9D321060BA300A76119 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A128D68D2279D09500AA308F /* UIViewMorphExtensions.swift */,
+				A128D68A2279D02200AA308F /* NSLayoutConstraintExtensions.swift */,
+				A128D6892279D02200AA308F /* UIView+Hierarchy.swift */,
+				A128D6872279CFB000AA308F /* UIView+NSLayoutConstraints.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1EDD9D421060BA700A76119 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1EDD9D521060BBE00A76119 /* Observable.swift */,
+				A1607F6B210765EE0031FC56 /* Result.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1EF1B0321020BC800B54CA0 = {
+			isa = PBXGroup;
+			children = (
+				A1EF1B0F21020BC800B54CA0 /* AKControls */,
+				A1EF1B1A21020BC800B54CA0 /* AKControlsTests */,
+				A1EF1B2C21020C9700B54CA0 /* AKControlsDemo */,
+				A1EF1B0E21020BC800B54CA0 /* Products */,
+				A1EF1B3D21020CB900B54CA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1EF1B0E21020BC800B54CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF1B0D21020BC800B54CA0 /* AKControls.framework */,
+				A1EF1B1621020BC800B54CA0 /* AKControlsTests.xctest */,
+				A1EF1B2B21020C9700B54CA0 /* AKControlsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1EF1B0F21020BC800B54CA0 /* AKControls */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF1B1021020BC800B54CA0 /* AKControls.h */,
+				A1EF1B1121020BC800B54CA0 /* Info.plist */,
+				A1EF1B41210219DC00B54CA0 /* Modules */,
+			);
+			path = AKControls;
+			sourceTree = "<group>";
+		};
+		A1EF1B1A21020BC800B54CA0 /* AKControlsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF1B1B21020BC800B54CA0 /* AKControlsTests.swift */,
+				A1EF1B1D21020BC800B54CA0 /* Info.plist */,
+			);
+			path = AKControlsTests;
+			sourceTree = "<group>";
+		};
+		A1EF1B2C21020C9700B54CA0 /* AKControlsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF1B4021020D1000B54CA0 /* Modules */,
+				A1EF1B3F21020D0A00B54CA0 /* Launch */,
+				A1EF1B2D21020C9700B54CA0 /* AppDelegate.swift */,
+				A1EF1B2F21020C9700B54CA0 /* ViewController.swift */,
+				A1EF1B3121020C9700B54CA0 /* Main.storyboard */,
+				A1EF1B3421020C9900B54CA0 /* Assets.xcassets */,
+				A1EF1B3621020C9900B54CA0 /* LaunchScreen.storyboard */,
+				A1EF1B3921020C9900B54CA0 /* Info.plist */,
+			);
+			path = AKControlsDemo;
+			sourceTree = "<group>";
+		};
+		A1EF1B3D21020CB900B54CA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1EF1B3F21020D0A00B54CA0 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		A1EF1B4021020D1000B54CA0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A1EDD9A82105E52300A76119 /* NibCollectionViewCell */,
+				A1EF1B5F21022DA300B54CA0 /* NibTableViewCell */,
+				A1EF1B502102223C00B54CA0 /* NibView */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A1EF1B41210219DC00B54CA0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A191EF1221ED75480041BE52 /* UserDefault */,
+				A1EDD9CF2106054700A76119 /* Util */,
+				A1EF1B42210219EF00B54CA0 /* NibView */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A1EF1B42210219EF00B54CA0 /* NibView */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF1B4321021A2900B54CA0 /* View */,
+			);
+			path = NibView;
+			sourceTree = "<group>";
+		};
+		A1EF1B4321021A2900B54CA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF1B4421021A4B00B54CA0 /* AKNibView.h */,
+				A1EF1B4521021A4B00B54CA0 /* AKNibView.m */,
+				A1EF1B4821021B1700B54CA0 /* NibView.swift */,
+				A1EF1B4A21021D5500B54CA0 /* UIView+Helper.swift */,
+				A1EF1B4D21021EC300B54CA0 /* NibReplaceable.swift */,
+				A1EF1B5921022C6E00B54CA0 /* AKNibTableViewCell.h */,
+				A1EF1B5A21022C6E00B54CA0 /* AKNibTableViewCell.m */,
+				A1EF1B5D21022CBE00B54CA0 /* NibTableViewCell.swift */,
+				A1EF1B6F21048D3D00B54CA0 /* AKNibCollectionViewCell.h */,
+				A1EF1B7021048D3D00B54CA0 /* AKNibCollectionViewCell.m */,
+				A1EF1B6D21036DC800B54CA0 /* NibCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1EF1B502102223C00B54CA0 /* NibView */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF1B522102228800B54CA0 /* View */,
+				A1EF1B512102228300B54CA0 /* Controller */,
+			);
+			path = NibView;
+			sourceTree = "<group>";
+		};
+		A1EF1B512102228300B54CA0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF1B532102229600B54CA0 /* NibView.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1EF1B522102228800B54CA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF1B552102232200B54CA0 /* CustomNibView.xib */,
+				A1EF1B572102236F00B54CA0 /* CustomNibView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1EF1B5F21022DA300B54CA0 /* NibTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF1B6121022DB500B54CA0 /* View */,
+				A1EF1B6021022DAF00B54CA0 /* Controller */,
+			);
+			path = NibTableViewCell;
+			sourceTree = "<group>";
+		};
+		A1EF1B6021022DAF00B54CA0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF1B622102316500B54CA0 /* NibTableViewCell.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1EF1B6121022DB500B54CA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1EF1B642102317A00B54CA0 /* CustomTableViewCell.xib */,
+				A1EF1B66210231C400B54CA0 /* CustomTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A1EF1B0A21020BC800B54CA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EF1B1E21020BC800B54CA0 /* AKControls.h in Headers */,
+				A1EF1B4621021A4B00B54CA0 /* AKNibView.h in Headers */,
+				A1EF1B5B21022C6E00B54CA0 /* AKNibTableViewCell.h in Headers */,
+				A1EF1B7121048D3D00B54CA0 /* AKNibCollectionViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A1EF1B0C21020BC800B54CA0 /* AKControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EF1B2121020BC800B54CA0 /* Build configuration list for PBXNativeTarget "AKControls" */;
+			buildPhases = (
+				A1EF1B0821020BC800B54CA0 /* Sources */,
+				A1EF1B0921020BC800B54CA0 /* Frameworks */,
+				A1EF1B0A21020BC800B54CA0 /* Headers */,
+				A1EF1B0B21020BC800B54CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKControls;
+			productName = AKControls;
+			productReference = A1EF1B0D21020BC800B54CA0 /* AKControls.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1EF1B1521020BC800B54CA0 /* AKControlsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EF1B2421020BC800B54CA0 /* Build configuration list for PBXNativeTarget "AKControlsTests" */;
+			buildPhases = (
+				A1EF1B1221020BC800B54CA0 /* Sources */,
+				A1EF1B1321020BC800B54CA0 /* Frameworks */,
+				A1EF1B1421020BC800B54CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1EF1B1921020BC800B54CA0 /* PBXTargetDependency */,
+			);
+			name = AKControlsTests;
+			productName = AKControlsTests;
+			productReference = A1EF1B1621020BC800B54CA0 /* AKControlsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1EF1B2A21020C9700B54CA0 /* AKControlsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EF1B3A21020C9900B54CA0 /* Build configuration list for PBXNativeTarget "AKControlsDemo" */;
+			buildPhases = (
+				A1EF1B2721020C9700B54CA0 /* Sources */,
+				A1EF1B2821020C9700B54CA0 /* Frameworks */,
+				A1EF1B2921020C9700B54CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKControlsDemo;
+			productName = AKControlsDemo;
+			productReference = A1EF1B2B21020C9700B54CA0 /* AKControlsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1EF1B0421020BC800B54CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Hoodles;
+				TargetAttributes = {
+					A1EF1B0C21020BC800B54CA0 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1020;
+					};
+					A1EF1B1521020BC800B54CA0 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A1EF1B2A21020C9700B54CA0 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A1EF1B0721020BC800B54CA0 /* Build configuration list for PBXProject "AKControls" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1EF1B0321020BC800B54CA0;
+			productRefGroup = A1EF1B0E21020BC800B54CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1EF1B0C21020BC800B54CA0 /* AKControls */,
+				A1EF1B1521020BC800B54CA0 /* AKControlsTests */,
+				A1EF1B2A21020C9700B54CA0 /* AKControlsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1EF1B0B21020BC800B54CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EF1B1421020BC800B54CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EF1B2921020C9700B54CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EF1B632102316500B54CA0 /* NibTableViewCell.storyboard in Resources */,
+				A1EF1B3821020C9900B54CA0 /* LaunchScreen.storyboard in Resources */,
+				A1EF1B542102229600B54CA0 /* NibView.storyboard in Resources */,
+				A1EDD9AC2105E54300A76119 /* NibCollectionViewCell.storyboard in Resources */,
+				A1EDD9B42105E5E800A76119 /* CustomCollectionViewCell.xib in Resources */,
+				A1EF1B3521020C9900B54CA0 /* Assets.xcassets in Resources */,
+				A1EF1B3321020C9700B54CA0 /* Main.storyboard in Resources */,
+				A1EF1B562102232200B54CA0 /* CustomNibView.xib in Resources */,
+				A1EF1B652102317A00B54CA0 /* CustomTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1EF1B0821020BC800B54CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EF1B7221048D3D00B54CA0 /* AKNibCollectionViewCell.m in Sources */,
+				A1EF1B6E21036DC800B54CA0 /* NibCollectionViewCell.swift in Sources */,
+				A1EF1B4E21021EC300B54CA0 /* NibReplaceable.swift in Sources */,
+				A1EF1B5E21022CBE00B54CA0 /* NibTableViewCell.swift in Sources */,
+				A191EF1521ED75480041BE52 /* DefaultHandlerType.swift in Sources */,
+				A128D68E2279D09500AA308F /* UIViewMorphExtensions.swift in Sources */,
+				A128D6882279CFB000AA308F /* UIView+NSLayoutConstraints.swift in Sources */,
+				A1EF1B5C21022C6E00B54CA0 /* AKNibTableViewCell.m in Sources */,
+				A1EF1B4B21021D5500B54CA0 /* UIView+Helper.swift in Sources */,
+				A1EDD9D621060BBE00A76119 /* Observable.swift in Sources */,
+				A1EF1B4721021A4B00B54CA0 /* AKNibView.m in Sources */,
+				A128D68B2279D02200AA308F /* UIView+Hierarchy.swift in Sources */,
+				A1EDD9D22106055C00A76119 /* SegueHandlerType.swift in Sources */,
+				A128D68C2279D02200AA308F /* NSLayoutConstraintExtensions.swift in Sources */,
+				A1EF1B4C21021E6500B54CA0 /* NibView.swift in Sources */,
+				A1607F6C210765EE0031FC56 /* Result.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EF1B1221020BC800B54CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EF1B1C21020BC800B54CA0 /* AKControlsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EF1B2721020C9700B54CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EF1B3021020C9700B54CA0 /* ViewController.swift in Sources */,
+				A1EDD9B32105E5E800A76119 /* CustomCollectionViewCell.swift in Sources */,
+				A1EF1B582102236F00B54CA0 /* CustomNibView.swift in Sources */,
+				A1EF1B67210231C400B54CA0 /* CustomTableViewCell.swift in Sources */,
+				A1EF1B2E21020C9700B54CA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1EF1B1921020BC800B54CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1EF1B0C21020BC800B54CA0 /* AKControls */;
+			targetProxy = A1EF1B1821020BC800B54CA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1EF1B3121020C9700B54CA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EF1B3221020C9700B54CA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1EF1B3621020C9900B54CA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EF1B3721020C9900B54CA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1EF1B1F21020BC800B54CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1EF1B2021020BC800B54CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1EF1B2221020BC800B54CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6G8RV26HL5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AKControls/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.hoodles.AKControls;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1EF1B2321020BC800B54CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6G8RV26HL5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AKControls/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.hoodles.AKControls;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1EF1B2521020BC800B54CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G8RV26HL5;
+				INFOPLIST_FILE = AKControlsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.hoodles.AKControlsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1EF1B2621020BC800B54CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G8RV26HL5;
+				INFOPLIST_FILE = AKControlsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.hoodles.AKControlsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1EF1B3B21020C9900B54CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G8RV26HL5;
+				INFOPLIST_FILE = AKControlsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.hoodles.AKControlsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1EF1B3C21020C9900B54CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G8RV26HL5;
+				INFOPLIST_FILE = AKControlsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.hoodles.AKControlsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1EF1B0721020BC800B54CA0 /* Build configuration list for PBXProject "AKControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EF1B1F21020BC800B54CA0 /* Debug */,
+				A1EF1B2021020BC800B54CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EF1B2121020BC800B54CA0 /* Build configuration list for PBXNativeTarget "AKControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EF1B2221020BC800B54CA0 /* Debug */,
+				A1EF1B2321020BC800B54CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EF1B2421020BC800B54CA0 /* Build configuration list for PBXNativeTarget "AKControlsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EF1B2521020BC800B54CA0 /* Debug */,
+				A1EF1B2621020BC800B54CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EF1B3A21020C9900B54CA0 /* Build configuration list for PBXNativeTarget "AKControlsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EF1B3B21020C9900B54CA0 /* Debug */,
+				A1EF1B3C21020C9900B54CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1EF1B0421020BC800B54CA0 /* Project object */;
+}

@@ -7,6 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09C9FE1F5D55F545AEAD3154 /* Pods_TamagoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDC35235EA060A44BA586E0 /* Pods_TamagoTests.framework */; };
+		286EB24CD91CAB9CED04529B /* Pods_Tamago.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67CB64AAA396C125D270C667 /* Pods_Tamago.framework */; };
+		A128D5C8227947DA00AA308F /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D5C7227947DA00AA308F /* BoardViewController.swift */; };
+		A128D5CA227949EF00AA308F /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D5C9227949EF00AA308F /* CanvasViewController.swift */; };
+		A128D63D22794A6400AA308F /* AKControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A128D63822794A5800AA308F /* AKControls.framework */; };
+		A128D63E22794A6400AA308F /* AKControls.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A128D63822794A5800AA308F /* AKControls.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A128D64E22794B7300AA308F /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D64422794B7300AA308F /* ApplicationCoordinator.swift */; };
+		A128D64F22794B7300AA308F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D64522794B7300AA308F /* Coordinator.swift */; };
+		A128D65022794B7300AA308F /* UserDefaultConfigProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D64722794B7300AA308F /* UserDefaultConfigProvider.swift */; };
+		A128D65122794B7300AA308F /* ConfigProvidable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D64822794B7300AA308F /* ConfigProvidable.swift */; };
+		A128D65222794B7300AA308F /* BottomTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D64A22794B7300AA308F /* BottomTextButton.swift */; };
+		A128D65322794B7300AA308F /* InputTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A128D64B22794B7300AA308F /* InputTextFieldView.xib */; };
+		A128D65422794B7300AA308F /* InputTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D64C22794B7300AA308F /* InputTextFieldView.swift */; };
+		A128D65522794B7300AA308F /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D64D22794B7300AA308F /* ActionButton.swift */; };
+		A128D65922794C8300AA308F /* CanvasCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D65822794C8300AA308F /* CanvasCoordinator.swift */; };
+		A128D66D22794DA000AA308F /* Array+NextElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D65C22794DA000AA308F /* Array+NextElement.swift */; };
+		A128D66E22794DA000AA308F /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D65D22794DA000AA308F /* CoreDataHelper.swift */; };
+		A128D66F22794DA000AA308F /* Encodable+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D65E22794DA000AA308F /* Encodable+Dictionary.swift */; };
+		A128D67022794DA000AA308F /* UIColor+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D65F22794DA000AA308F /* UIColor+Convenience.swift */; };
+		A128D67122794DA000AA308F /* Result+VoidResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D66022794DA000AA308F /* Result+VoidResult.swift */; };
+		A128D67222794DA000AA308F /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D66122794DA000AA308F /* String+Validation.swift */; };
+		A128D67322794DA000AA308F /* Date+DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D66222794DA000AA308F /* Date+DateFormatter.swift */; };
+		A128D67422794DA000AA308F /* DateFormatter+Emote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D66322794DA000AA308F /* DateFormatter+Emote.swift */; };
+		A128D67522794DA000AA308F /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D66522794DA000AA308F /* KeyboardLayoutConstraint.swift */; };
+		A128D67722794DA000AA308F /* UIView+Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D66722794DA000AA308F /* UIView+Round.swift */; };
+		A128D67822794DA000AA308F /* UIButton+VerticalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D66822794DA000AA308F /* UIButton+VerticalLayout.swift */; };
+		A128D67922794DA000AA308F /* UITextField+PlaceholderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D66922794DA000AA308F /* UITextField+PlaceholderColor.swift */; };
+		A128D67A22794DA000AA308F /* UINavigationController+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D66A22794DA000AA308F /* UINavigationController+Style.swift */; };
+		A128D67B22794DA000AA308F /* UIAlertController+Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D66B22794DA000AA308F /* UIAlertController+Message.swift */; };
+		A128D67C22794DA000AA308F /* UIViewLoading+Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D66C22794DA000AA308F /* UIViewLoading+Xib.swift */; };
+		A128D67E2279602F00AA308F /* ColorOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D67D2279602F00AA308F /* ColorOptionView.swift */; };
+		A128D6802279634600AA308F /* ColorOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D67F2279634600AA308F /* ColorOptionCell.swift */; };
+		A128D6822279730300AA308F /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128D6812279730300AA308F /* CanvasView.swift */; };
 		A18DD97A22720CF200D0F3FF /* TamagoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18DD97922720CF200D0F3FF /* TamagoTests.swift */; };
 		A18DD98522720CF200D0F3FF /* TamagoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18DD98422720CF200D0F3FF /* TamagoUITests.swift */; };
 		A18DD9A722720DAF00D0F3FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18DD99D22720DAF00D0F3FF /* ViewController.swift */; };
@@ -15,10 +48,43 @@
 		A18DD9AA22720DAF00D0F3FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18DD9A122720DAF00D0F3FF /* Main.storyboard */; };
 		A18DD9AB22720DAF00D0F3FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18DD9A322720DAF00D0F3FF /* AppDelegate.swift */; };
 		A18DD9AC22720DAF00D0F3FF /* Tamago.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A18DD9A422720DAF00D0F3FF /* Tamago.xcdatamodeld */; };
-		A18DD9AD22720DAF00D0F3FF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A18DD9A622720DAF00D0F3FF /* Info.plist */; };
+		A1AEB8A02283DECD00952CD6 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AEB89F2283DECD00952CD6 /* Action.swift */; };
+		A1F88B2F227AB74B004DAFF2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F88B2E227AB74B004DAFF2 /* libz.tbd */; };
+		A1F88BBD227B1E52004DAFF2 /* Colyseus_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F88BBC227B1E36004DAFF2 /* Colyseus_ObjC.framework */; };
+		A1F88BBE227B1E52004DAFF2 /* Colyseus_ObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1F88BBC227B1E36004DAFF2 /* Colyseus_ObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1F88C19227BCF16004DAFF2 /* ColyseusClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F88C18227BCF16004DAFF2 /* ColyseusClientManager.m */; };
+		A1F88C3622830AEA004DAFF2 /* CanvasUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F88C3522830AEA004DAFF2 /* CanvasUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A128D63722794A5800AA308F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A128D63122794A5800AA308F /* AKControls.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A1EF1B0D21020BC800B54CA0;
+			remoteInfo = AKControls;
+		};
+		A128D63922794A5800AA308F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A128D63122794A5800AA308F /* AKControls.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A1EF1B1621020BC800B54CA0;
+			remoteInfo = AKControlsTests;
+		};
+		A128D63B22794A5800AA308F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A128D63122794A5800AA308F /* AKControls.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A1EF1B2B21020C9700B54CA0;
+			remoteInfo = AKControlsDemo;
+		};
+		A128D63F22794A6400AA308F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A128D63122794A5800AA308F /* AKControls.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A1EF1B0C21020BC800B54CA0;
+			remoteInfo = AKControls;
+		};
 		A18DD97622720CF200D0F3FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A18DD95622720CF000D0F3FF /* Project object */;
@@ -33,9 +99,70 @@
 			remoteGlobalIDString = A18DD95D22720CF000D0F3FF;
 			remoteInfo = Tamago;
 		};
+		A1F88BBB227B1E36004DAFF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F88BB7227B1E36004DAFF2 /* Colyseus-ObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4815E50420A5E28500112FB8;
+			remoteInfo = "Colyseus-ObjC";
+		};
+		A1F88BBF227B1E52004DAFF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F88BB7227B1E36004DAFF2 /* Colyseus-ObjC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4815E50320A5E28500112FB8;
+			remoteInfo = "Colyseus-ObjC";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A128D64122794A6400AA308F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A128D63E22794A6400AA308F /* AKControls.framework in Embed Frameworks */,
+				A1F88BBE227B1E52004DAFF2 /* Colyseus_ObjC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		67CB64AAA396C125D270C667 /* Pods_Tamago.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tamago.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		895DAB1F3B5636FDB9816FBE /* Pods-TamagoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamagoTests.release.xcconfig"; path = "Target Support Files/Pods-TamagoTests/Pods-TamagoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A128D5C7227947DA00AA308F /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		A128D5C9227949EF00AA308F /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		A128D63122794A5800AA308F /* AKControls.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AKControls.xcodeproj; path = AKControls/AKControls.xcodeproj; sourceTree = "<group>"; };
+		A128D64422794B7300AA308F /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		A128D64522794B7300AA308F /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A128D64722794B7300AA308F /* UserDefaultConfigProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultConfigProvider.swift; sourceTree = "<group>"; };
+		A128D64822794B7300AA308F /* ConfigProvidable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigProvidable.swift; sourceTree = "<group>"; };
+		A128D64A22794B7300AA308F /* BottomTextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomTextButton.swift; sourceTree = "<group>"; };
+		A128D64B22794B7300AA308F /* InputTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputTextFieldView.xib; sourceTree = "<group>"; };
+		A128D64C22794B7300AA308F /* InputTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextFieldView.swift; sourceTree = "<group>"; };
+		A128D64D22794B7300AA308F /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		A128D65822794C8300AA308F /* CanvasCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasCoordinator.swift; sourceTree = "<group>"; };
+		A128D65C22794DA000AA308F /* Array+NextElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+NextElement.swift"; sourceTree = "<group>"; };
+		A128D65D22794DA000AA308F /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		A128D65E22794DA000AA308F /* Encodable+Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Dictionary.swift"; sourceTree = "<group>"; };
+		A128D65F22794DA000AA308F /* UIColor+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Convenience.swift"; sourceTree = "<group>"; };
+		A128D66022794DA000AA308F /* Result+VoidResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Result+VoidResult.swift"; sourceTree = "<group>"; };
+		A128D66122794DA000AA308F /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		A128D66222794DA000AA308F /* Date+DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+DateFormatter.swift"; sourceTree = "<group>"; };
+		A128D66322794DA000AA308F /* DateFormatter+Emote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Emote.swift"; sourceTree = "<group>"; };
+		A128D66522794DA000AA308F /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		A128D66722794DA000AA308F /* UIView+Round.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Round.swift"; sourceTree = "<group>"; };
+		A128D66822794DA000AA308F /* UIButton+VerticalLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+VerticalLayout.swift"; sourceTree = "<group>"; };
+		A128D66922794DA000AA308F /* UITextField+PlaceholderColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+PlaceholderColor.swift"; sourceTree = "<group>"; };
+		A128D66A22794DA000AA308F /* UINavigationController+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Style.swift"; sourceTree = "<group>"; };
+		A128D66B22794DA000AA308F /* UIAlertController+Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Message.swift"; sourceTree = "<group>"; };
+		A128D66C22794DA000AA308F /* UIViewLoading+Xib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewLoading+Xib.swift"; sourceTree = "<group>"; };
+		A128D67D2279602F00AA308F /* ColorOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOptionView.swift; sourceTree = "<group>"; };
+		A128D67F2279634600AA308F /* ColorOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOptionCell.swift; sourceTree = "<group>"; };
+		A128D6812279730300AA308F /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		A18DD95E22720CF000D0F3FF /* Tamago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tamago.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18DD97522720CF200D0F3FF /* TamagoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamagoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18DD97922720CF200D0F3FF /* TamagoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagoTests.swift; sourceTree = "<group>"; };
@@ -50,6 +177,17 @@
 		A18DD9A322720DAF00D0F3FF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A18DD9A522720DAF00D0F3FF /* Tamago.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tamago.xcdatamodel; sourceTree = "<group>"; };
 		A18DD9A622720DAF00D0F3FF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1AEB89F2283DECD00952CD6 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		A1F88B2E227AB74B004DAFF2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A1F88B62227B1AAD004DAFF2 /* Tamago-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tamago-Bridging-Header.h"; sourceTree = "<group>"; };
+		A1F88BB7227B1E36004DAFF2 /* Colyseus-ObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Colyseus-ObjC.xcodeproj"; path = "Colyseus-ObjC/Colyseus-ObjC.xcodeproj"; sourceTree = "<group>"; };
+		A1F88C17227BCF16004DAFF2 /* ColyseusClientManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColyseusClientManager.h; sourceTree = "<group>"; };
+		A1F88C18227BCF16004DAFF2 /* ColyseusClientManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColyseusClientManager.m; sourceTree = "<group>"; };
+		A1F88C3522830AEA004DAFF2 /* CanvasUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasUserView.swift; sourceTree = "<group>"; };
+		A3B03C266F3FDFF9397A37B3 /* Pods-Tamago.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tamago.debug.xcconfig"; path = "Target Support Files/Pods-Tamago/Pods-Tamago.debug.xcconfig"; sourceTree = "<group>"; };
+		B3A7CD3C02DD33D0BF9F9A1F /* Pods-TamagoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TamagoTests.debug.xcconfig"; path = "Target Support Files/Pods-TamagoTests/Pods-TamagoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEDEADF8F5C2AA243563CD1B /* Pods-Tamago.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tamago.release.xcconfig"; path = "Target Support Files/Pods-Tamago/Pods-Tamago.release.xcconfig"; sourceTree = "<group>"; };
+		EDDC35235EA060A44BA586E0 /* Pods_TamagoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TamagoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +195,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F88B2F227AB74B004DAFF2 /* libz.tbd in Frameworks */,
+				A1F88BBD227B1E52004DAFF2 /* Colyseus_ObjC.framework in Frameworks */,
+				A128D63D22794A6400AA308F /* AKControls.framework in Frameworks */,
+				286EB24CD91CAB9CED04529B /* Pods_Tamago.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +206,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09C9FE1F5D55F545AEAD3154 /* Pods_TamagoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,13 +220,124 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1962880E8A151F867ADA453F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3B03C266F3FDFF9397A37B3 /* Pods-Tamago.debug.xcconfig */,
+				DEDEADF8F5C2AA243563CD1B /* Pods-Tamago.release.xcconfig */,
+				B3A7CD3C02DD33D0BF9F9A1F /* Pods-TamagoTests.debug.xcconfig */,
+				895DAB1F3B5636FDB9816FBE /* Pods-TamagoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A128D5CC22794A4200AA308F /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				A1F88BB7227B1E36004DAFF2 /* Colyseus-ObjC.xcodeproj */,
+				A128D63122794A5800AA308F /* AKControls.xcodeproj */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		A128D63222794A5800AA308F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A128D63822794A5800AA308F /* AKControls.framework */,
+				A128D63A22794A5800AA308F /* AKControlsTests.xctest */,
+				A128D63C22794A5800AA308F /* AKControlsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A128D64222794B7300AA308F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A128D64322794B7300AA308F /* Coordinator */,
+				A128D64622794B7300AA308F /* Model */,
+				A128D64922794B7300AA308F /* View */,
+			);
+			name = Common;
+			path = Tamago/Modules/Common;
+			sourceTree = SOURCE_ROOT;
+		};
+		A128D64322794B7300AA308F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A128D64422794B7300AA308F /* ApplicationCoordinator.swift */,
+				A128D64522794B7300AA308F /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A128D64622794B7300AA308F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A128D64722794B7300AA308F /* UserDefaultConfigProvider.swift */,
+				A128D64822794B7300AA308F /* ConfigProvidable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A128D64922794B7300AA308F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A128D64A22794B7300AA308F /* BottomTextButton.swift */,
+				A128D64B22794B7300AA308F /* InputTextFieldView.xib */,
+				A128D64C22794B7300AA308F /* InputTextFieldView.swift */,
+				A128D64D22794B7300AA308F /* ActionButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A128D65A22794DA000AA308F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A128D65B22794DA000AA308F /* Model */,
+				A128D66422794DA000AA308F /* View */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A128D65B22794DA000AA308F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A128D65C22794DA000AA308F /* Array+NextElement.swift */,
+				A128D65D22794DA000AA308F /* CoreDataHelper.swift */,
+				A128D65E22794DA000AA308F /* Encodable+Dictionary.swift */,
+				A128D65F22794DA000AA308F /* UIColor+Convenience.swift */,
+				A128D66022794DA000AA308F /* Result+VoidResult.swift */,
+				A128D66122794DA000AA308F /* String+Validation.swift */,
+				A128D66222794DA000AA308F /* Date+DateFormatter.swift */,
+				A128D66322794DA000AA308F /* DateFormatter+Emote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A128D66422794DA000AA308F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A128D66522794DA000AA308F /* KeyboardLayoutConstraint.swift */,
+				A128D66722794DA000AA308F /* UIView+Round.swift */,
+				A128D66822794DA000AA308F /* UIButton+VerticalLayout.swift */,
+				A128D66922794DA000AA308F /* UITextField+PlaceholderColor.swift */,
+				A128D66A22794DA000AA308F /* UINavigationController+Style.swift */,
+				A128D66B22794DA000AA308F /* UIAlertController+Message.swift */,
+				A128D66C22794DA000AA308F /* UIViewLoading+Xib.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A18DD95522720CF000D0F3FF = {
 			isa = PBXGroup;
 			children = (
+				A128D5CC22794A4200AA308F /* 3rdParty */,
 				A18DD96022720CF000D0F3FF /* Tamago */,
 				A18DD97822720CF200D0F3FF /* TamagoTests */,
 				A18DD98322720CF200D0F3FF /* TamagoUITests */,
 				A18DD95F22720CF000D0F3FF /* Products */,
+				A1F88B2D227AB74B004DAFF2 /* Frameworks */,
+				1962880E8A151F867ADA453F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,41 +381,11 @@
 		A18DD99222720DAF00D0F3FF /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				A18DD99322720DAF00D0F3FF /* Common */,
+				A128D64222794B7300AA308F /* Common */,
 				A18DD99722720DAF00D0F3FF /* Main */,
+				A128D65A22794DA000AA308F /* Util */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		A18DD99322720DAF00D0F3FF /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				A18DD99422720DAF00D0F3FF /* Coordinator */,
-				A18DD99522720DAF00D0F3FF /* Model */,
-				A18DD99622720DAF00D0F3FF /* View */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		A18DD99422720DAF00D0F3FF /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Coordinator;
-			sourceTree = "<group>";
-		};
-		A18DD99522720DAF00D0F3FF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A18DD99622720DAF00D0F3FF /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		A18DD99722720DAF00D0F3FF /* Main */ = {
@@ -178,6 +402,7 @@
 		A18DD99822720DAF00D0F3FF /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				A128D65822794C8300AA308F /* CanvasCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -185,6 +410,9 @@
 		A18DD99922720DAF00D0F3FF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A18DD9A122720DAF00D0F3FF /* Main.storyboard */,
+				A128D5C7227947DA00AA308F /* BoardViewController.swift */,
+				A128D5C9227949EF00AA308F /* CanvasViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -192,6 +420,9 @@
 		A18DD99A22720DAF00D0F3FF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A1AEB89F2283DECD00952CD6 /* Action.swift */,
+				A1F88C17227BCF16004DAFF2 /* ColyseusClientManager.h */,
+				A1F88C18227BCF16004DAFF2 /* ColyseusClientManager.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,6 +430,10 @@
 		A18DD99B22720DAF00D0F3FF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A128D67D2279602F00AA308F /* ColorOptionView.swift */,
+				A128D67F2279634600AA308F /* ColorOptionCell.swift */,
+				A128D6812279730300AA308F /* CanvasView.swift */,
+				A1F88C3522830AEA004DAFF2 /* CanvasUserView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -209,12 +444,30 @@
 				A18DD99D22720DAF00D0F3FF /* ViewController.swift */,
 				A18DD99E22720DAF00D0F3FF /* Assets.xcassets */,
 				A18DD99F22720DAF00D0F3FF /* LaunchScreen.storyboard */,
-				A18DD9A122720DAF00D0F3FF /* Main.storyboard */,
 				A18DD9A322720DAF00D0F3FF /* AppDelegate.swift */,
 				A18DD9A422720DAF00D0F3FF /* Tamago.xcdatamodeld */,
 				A18DD9A622720DAF00D0F3FF /* Info.plist */,
+				A1F88B62227B1AAD004DAFF2 /* Tamago-Bridging-Header.h */,
 			);
 			path = Launch;
+			sourceTree = "<group>";
+		};
+		A1F88B2D227AB74B004DAFF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1F88B2E227AB74B004DAFF2 /* libz.tbd */,
+				67CB64AAA396C125D270C667 /* Pods_Tamago.framework */,
+				EDDC35235EA060A44BA586E0 /* Pods_TamagoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1F88BB8227B1E36004DAFF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1F88BBC227B1E36004DAFF2 /* Colyseus_ObjC.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,13 +477,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A18DD98922720CF200D0F3FF /* Build configuration list for PBXNativeTarget "Tamago" */;
 			buildPhases = (
+				316288DACBD3DA90494849CB /* [CP] Check Pods Manifest.lock */,
 				A18DD95A22720CF000D0F3FF /* Sources */,
 				A18DD95B22720CF000D0F3FF /* Frameworks */,
 				A18DD95C22720CF000D0F3FF /* Resources */,
+				A128D64122794A6400AA308F /* Embed Frameworks */,
+				D18A10960D200C1CFAF642C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A128D64022794A6400AA308F /* PBXTargetDependency */,
+				A1F88BC0227B1E52004DAFF2 /* PBXTargetDependency */,
 			);
 			name = Tamago;
 			productName = Tamago;
@@ -241,9 +499,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A18DD98C22720CF200D0F3FF /* Build configuration list for PBXNativeTarget "TamagoTests" */;
 			buildPhases = (
+				3C24830A1F75CFCB632021E5 /* [CP] Check Pods Manifest.lock */,
 				A18DD97122720CF200D0F3FF /* Sources */,
 				A18DD97222720CF200D0F3FF /* Frameworks */,
 				A18DD97322720CF200D0F3FF /* Resources */,
+				A8875055BA0EF803AD0CD1FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,6 +567,16 @@
 			mainGroup = A18DD95522720CF000D0F3FF;
 			productRefGroup = A18DD95F22720CF000D0F3FF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A128D63222794A5800AA308F /* Products */;
+					ProjectRef = A128D63122794A5800AA308F /* AKControls.xcodeproj */;
+				},
+				{
+					ProductGroup = A1F88BB8227B1E36004DAFF2 /* Products */;
+					ProjectRef = A1F88BB7227B1E36004DAFF2 /* Colyseus-ObjC.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A18DD95D22720CF000D0F3FF /* Tamago */,
@@ -316,15 +586,46 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		A128D63822794A5800AA308F /* AKControls.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AKControls.framework;
+			remoteRef = A128D63722794A5800AA308F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A128D63A22794A5800AA308F /* AKControlsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AKControlsTests.xctest;
+			remoteRef = A128D63922794A5800AA308F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A128D63C22794A5800AA308F /* AKControlsDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AKControlsDemo.app;
+			remoteRef = A128D63B22794A5800AA308F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1F88BBC227B1E36004DAFF2 /* Colyseus_ObjC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Colyseus_ObjC.framework;
+			remoteRef = A1F88BBB227B1E36004DAFF2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		A18DD95C22720CF000D0F3FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A18DD9AD22720DAF00D0F3FF /* Info.plist in Resources */,
 				A18DD9AA22720DAF00D0F3FF /* Main.storyboard in Resources */,
 				A18DD9A822720DAF00D0F3FF /* Assets.xcassets in Resources */,
 				A18DD9A922720DAF00D0F3FF /* LaunchScreen.storyboard in Resources */,
+				A128D65322794B7300AA308F /* InputTextFieldView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,14 +645,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		316288DACBD3DA90494849CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tamago-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C24830A1F75CFCB632021E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TamagoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8875055BA0EF803AD0CD1FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TamagoTests/Pods-TamagoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TamagoTests/Pods-TamagoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18A10960D200C1CFAF642C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tamago/Pods-Tamago-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tamago/Pods-Tamago-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A18DD95A22720CF000D0F3FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A128D66E22794DA000AA308F /* CoreDataHelper.swift in Sources */,
+				A128D65122794B7300AA308F /* ConfigProvidable.swift in Sources */,
 				A18DD9AC22720DAF00D0F3FF /* Tamago.xcdatamodeld in Sources */,
+				A1F88C19227BCF16004DAFF2 /* ColyseusClientManager.m in Sources */,
+				A128D67122794DA000AA308F /* Result+VoidResult.swift in Sources */,
+				A128D6802279634600AA308F /* ColorOptionCell.swift in Sources */,
+				A128D67922794DA000AA308F /* UITextField+PlaceholderColor.swift in Sources */,
+				A128D67E2279602F00AA308F /* ColorOptionView.swift in Sources */,
+				A128D66F22794DA000AA308F /* Encodable+Dictionary.swift in Sources */,
+				A1AEB8A02283DECD00952CD6 /* Action.swift in Sources */,
 				A18DD9AB22720DAF00D0F3FF /* AppDelegate.swift in Sources */,
+				A128D67422794DA000AA308F /* DateFormatter+Emote.swift in Sources */,
 				A18DD9A722720DAF00D0F3FF /* ViewController.swift in Sources */,
+				A128D67722794DA000AA308F /* UIView+Round.swift in Sources */,
+				A128D65422794B7300AA308F /* InputTextFieldView.swift in Sources */,
+				A128D66D22794DA000AA308F /* Array+NextElement.swift in Sources */,
+				A1F88C3622830AEA004DAFF2 /* CanvasUserView.swift in Sources */,
+				A128D5CA227949EF00AA308F /* CanvasViewController.swift in Sources */,
+				A128D67A22794DA000AA308F /* UINavigationController+Style.swift in Sources */,
+				A128D67322794DA000AA308F /* Date+DateFormatter.swift in Sources */,
+				A128D67B22794DA000AA308F /* UIAlertController+Message.swift in Sources */,
+				A128D65222794B7300AA308F /* BottomTextButton.swift in Sources */,
+				A128D67522794DA000AA308F /* KeyboardLayoutConstraint.swift in Sources */,
+				A128D5C8227947DA00AA308F /* BoardViewController.swift in Sources */,
+				A128D67222794DA000AA308F /* String+Validation.swift in Sources */,
+				A128D67C22794DA000AA308F /* UIViewLoading+Xib.swift in Sources */,
+				A128D64E22794B7300AA308F /* ApplicationCoordinator.swift in Sources */,
+				A128D64F22794B7300AA308F /* Coordinator.swift in Sources */,
+				A128D65922794C8300AA308F /* CanvasCoordinator.swift in Sources */,
+				A128D67022794DA000AA308F /* UIColor+Convenience.swift in Sources */,
+				A128D6822279730300AA308F /* CanvasView.swift in Sources */,
+				A128D65022794B7300AA308F /* UserDefaultConfigProvider.swift in Sources */,
+				A128D65522794B7300AA308F /* ActionButton.swift in Sources */,
+				A128D67822794DA000AA308F /* UIButton+VerticalLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +825,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A128D64022794A6400AA308F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKControls;
+			targetProxy = A128D63F22794A6400AA308F /* PBXContainerItemProxy */;
+		};
 		A18DD97722720CF200D0F3FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A18DD95D22720CF000D0F3FF /* Tamago */;
@@ -383,6 +839,11 @@
 			isa = PBXTargetDependency;
 			target = A18DD95D22720CF000D0F3FF /* Tamago */;
 			targetProxy = A18DD98122720CF200D0F3FF /* PBXContainerItemProxy */;
+		};
+		A1F88BC0227B1E52004DAFF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Colyseus-ObjC";
+			targetProxy = A1F88BBF227B1E52004DAFF2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -524,17 +985,28 @@
 		};
 		A18DD98A22720CF200D0F3FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B03C266F3FDFF9397A37B3 /* Pods-Tamago.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6G8RV26HL5;
+				HEADER_SEARCH_PATHS = (
+					"3rdParty/Colyseus-ObjC/Colyseus-ObjC",
+					"3rdParty/Colyseus-ObjC/Colyseus-ObjC/PocketSocket",
+					"3rdParty/Colyseus-ObjC/Colyseus-ObjC/MPMessagePack",
+					"3rdParty/Colyseus-ObjC/Colyseus-ObjC/Colyseus",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Tamago/Launch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.hoodles.Tamago;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tamago/Launch/Tamago-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -542,17 +1014,28 @@
 		};
 		A18DD98B22720CF200D0F3FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEDEADF8F5C2AA243563CD1B /* Pods-Tamago.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6G8RV26HL5;
+				HEADER_SEARCH_PATHS = (
+					"3rdParty/Colyseus-ObjC/Colyseus-ObjC",
+					"3rdParty/Colyseus-ObjC/Colyseus-ObjC/PocketSocket",
+					"3rdParty/Colyseus-ObjC/Colyseus-ObjC/MPMessagePack",
+					"3rdParty/Colyseus-ObjC/Colyseus-ObjC/Colyseus",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Tamago/Launch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.hoodles.Tamago;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tamago/Launch/Tamago-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -560,6 +1043,7 @@
 		};
 		A18DD98D22720CF200D0F3FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A7CD3C02DD33D0BF9F9A1F /* Pods-TamagoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -581,6 +1065,7 @@
 		};
 		A18DD98E22720CF200D0F3FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895DAB1F3B5636FDB9816FBE /* Pods-TamagoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
