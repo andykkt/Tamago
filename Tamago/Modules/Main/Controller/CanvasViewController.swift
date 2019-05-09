@@ -36,10 +36,10 @@ class CanvasViewController: UIViewController {
         }
     }
     
-//    let socket = WebSocket(url: URL(string: "ws://localhost:1337/")!, protocols: ["sketching"])
-    let socket = WebSocket(url: URL(string: "ws://4ed4e4a2.ngrok.io/")!, protocols: ["sketching"])
+    let serveraddress = UserDefaults.standard.string(forKey: "serveraddress_preference") ?? "ws://localhost:1337/"
+    var socket: WebSocket!
     let userName = UUID().uuidString
-        
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         prepareColorOptionTableView()
@@ -54,6 +54,7 @@ class CanvasViewController: UIViewController {
     }
     
     private func prepareConnection() {
+        socket = WebSocket(url: URL(string: serveraddress)!, protocols: ["sketching"])
         socket.delegate = self
         socket.connect()
     }

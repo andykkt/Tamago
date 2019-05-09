@@ -49,6 +49,7 @@
 		A18DD9AB22720DAF00D0F3FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18DD9A322720DAF00D0F3FF /* AppDelegate.swift */; };
 		A18DD9AC22720DAF00D0F3FF /* Tamago.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A18DD9A422720DAF00D0F3FF /* Tamago.xcdatamodeld */; };
 		A1AEB8A02283DECD00952CD6 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AEB89F2283DECD00952CD6 /* Action.swift */; };
+		A1AEB8A62283FE2100952CD6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1AEB8A52283FE2100952CD6 /* Settings.bundle */; };
 		A1F88B2F227AB74B004DAFF2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F88B2E227AB74B004DAFF2 /* libz.tbd */; };
 		A1F88BBD227B1E52004DAFF2 /* Colyseus_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F88BBC227B1E36004DAFF2 /* Colyseus_ObjC.framework */; };
 		A1F88BBE227B1E52004DAFF2 /* Colyseus_ObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1F88BBC227B1E36004DAFF2 /* Colyseus_ObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -163,7 +164,7 @@
 		A128D67D2279602F00AA308F /* ColorOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOptionView.swift; sourceTree = "<group>"; };
 		A128D67F2279634600AA308F /* ColorOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOptionCell.swift; sourceTree = "<group>"; };
 		A128D6812279730300AA308F /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
-		A18DD95E22720CF000D0F3FF /* Tamago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tamago.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18DD95E22720CF000D0F3FF /* Sketching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sketching.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18DD97522720CF200D0F3FF /* TamagoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamagoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18DD97922720CF200D0F3FF /* TamagoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagoTests.swift; sourceTree = "<group>"; };
 		A18DD97B22720CF200D0F3FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -178,6 +179,8 @@
 		A18DD9A522720DAF00D0F3FF /* Tamago.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tamago.xcdatamodel; sourceTree = "<group>"; };
 		A18DD9A622720DAF00D0F3FF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1AEB89F2283DECD00952CD6 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		A1AEB8A52283FE2100952CD6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		A1AEB8A72283FFA200952CD6 /* Sketching.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sketching.entitlements; sourceTree = "<group>"; };
 		A1F88B2E227AB74B004DAFF2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		A1F88B62227B1AAD004DAFF2 /* Tamago-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tamago-Bridging-Header.h"; sourceTree = "<group>"; };
 		A1F88BB7227B1E36004DAFF2 /* Colyseus-ObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Colyseus-ObjC.xcodeproj"; path = "Colyseus-ObjC/Colyseus-ObjC.xcodeproj"; sourceTree = "<group>"; };
@@ -344,7 +347,7 @@
 		A18DD95F22720CF000D0F3FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A18DD95E22720CF000D0F3FF /* Tamago.app */,
+				A18DD95E22720CF000D0F3FF /* Sketching.app */,
 				A18DD97522720CF200D0F3FF /* TamagoTests.xctest */,
 				A18DD98022720CF200D0F3FF /* TamagoUITests.xctest */,
 			);
@@ -354,6 +357,7 @@
 		A18DD96022720CF000D0F3FF /* Tamago */ = {
 			isa = PBXGroup;
 			children = (
+				A1AEB8A72283FFA200952CD6 /* Sketching.entitlements */,
 				A18DD99C22720DAF00D0F3FF /* Launch */,
 				A18DD99222720DAF00D0F3FF /* Modules */,
 			);
@@ -448,6 +452,7 @@
 				A18DD9A422720DAF00D0F3FF /* Tamago.xcdatamodeld */,
 				A18DD9A622720DAF00D0F3FF /* Info.plist */,
 				A1F88B62227B1AAD004DAFF2 /* Tamago-Bridging-Header.h */,
+				A1AEB8A52283FE2100952CD6 /* Settings.bundle */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -492,7 +497,7 @@
 			);
 			name = Tamago;
 			productName = Tamago;
-			productReference = A18DD95E22720CF000D0F3FF /* Tamago.app */;
+			productReference = A18DD95E22720CF000D0F3FF /* Sketching.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A18DD97422720CF200D0F3FF /* TamagoTests */ = {
@@ -545,6 +550,11 @@
 				TargetAttributes = {
 					A18DD95D22720CF000D0F3FF = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					A18DD97422720CF200D0F3FF = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -624,6 +634,7 @@
 			files = (
 				A18DD9AA22720DAF00D0F3FF /* Main.storyboard in Resources */,
 				A18DD9A822720DAF00D0F3FF /* Assets.xcassets in Resources */,
+				A1AEB8A62283FE2100952CD6 /* Settings.bundle in Resources */,
 				A18DD9A922720DAF00D0F3FF /* LaunchScreen.storyboard in Resources */,
 				A128D65322794B7300AA308F /* InputTextFieldView.xib in Resources */,
 			);
@@ -990,8 +1001,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Tamago/Sketching.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6G8RV26HL5;
+				DEVELOPMENT_TEAM = VK6YHJA8HY;
 				HEADER_SEARCH_PATHS = (
 					"3rdParty/Colyseus-ObjC/Colyseus-ObjC",
 					"3rdParty/Colyseus-ObjC/Colyseus-ObjC/PocketSocket",
@@ -1004,8 +1016,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.hoodles.Tamago;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.dip.Sketching;
+				PRODUCT_NAME = Sketching;
 				SWIFT_OBJC_BRIDGING_HEADER = "Tamago/Launch/Tamago-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1019,8 +1031,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Tamago/Sketching.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6G8RV26HL5;
+				DEVELOPMENT_TEAM = VK6YHJA8HY;
 				HEADER_SEARCH_PATHS = (
 					"3rdParty/Colyseus-ObjC/Colyseus-ObjC",
 					"3rdParty/Colyseus-ObjC/Colyseus-ObjC/PocketSocket",
@@ -1033,8 +1046,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.hoodles.Tamago;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.dip.Sketching;
+				PRODUCT_NAME = Sketching;
 				SWIFT_OBJC_BRIDGING_HEADER = "Tamago/Launch/Tamago-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
