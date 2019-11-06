@@ -9,7 +9,11 @@ var webSocketsServerPort = 1337;
 
 // websocket and http servers
 var webSocketServer = require('websocket').server;
-var http = require('http');
+var https = require('https');
+var fs = require('fs');
+var privateKey = fs.readFileSync('pockey.pem', 'utf8');
+var certificate = fs.readFileSync('poccert.pem', 'utf8');
+var credentials = { key: privateKey, cert: certificate };
 
 /**
  * Global variables
@@ -35,11 +39,14 @@ colors.sort(function(a,b) { return Math.random() > 0.5; } );
 /**
  * HTTP server
  */
-var server = http.createServer(function(request, response) {
-    // Not important for us. We're writing WebSocket server, not HTTP server
-});
+// var server = https.createServer(function(request, response) {
+//     // Not important for us. We're writing WebSocket server, not HTTP server
+// });
+var server = https.createServer(credentials);
 server.listen(webSocketsServerPort, function() {
     console.log((new Date()) + " Server is listening on port " + webSocketsServerPort);
+    console.log("privateKey: " + privateKey);
+    console.log("certificate: " + certificate);
 });
 
 /**

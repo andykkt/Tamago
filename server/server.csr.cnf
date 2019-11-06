@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=AU
+ST=NSW
+L=SYD
+O=End Point
+OU=express-it.optusnet.com.au/
+emailAddress=andy.kim@optus.com.au
+CN = localhost
