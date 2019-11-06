@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A18DD95D22720CF000D0F3FF"
-               BuildableName = "Tamago.app"
+               BuildableName = "Sketching.app"
                BlueprintName = "Tamago"
                ReferencedContainer = "container:Tamago.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A18DD95D22720CF000D0F3FF"
-            BuildableName = "Tamago.app"
+            BuildableName = "Sketching.app"
             BlueprintName = "Tamago"
             ReferencedContainer = "container:Tamago.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A18DD95D22720CF000D0F3FF"
-            BuildableName = "Tamago.app"
+            BuildableName = "Sketching.app"
             BlueprintName = "Tamago"
             ReferencedContainer = "container:Tamago.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A18DD95D22720CF000D0F3FF"
-            BuildableName = "Tamago.app"
+            BuildableName = "Sketching.app"
             BlueprintName = "Tamago"
             ReferencedContainer = "container:Tamago.xcodeproj">
          </BuildableReference>
